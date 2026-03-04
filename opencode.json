@@ -14,7 +14,7 @@
         "qwen/qwen3-coder-30b": {
           "name": "The Qwen3 Coder (Local)"
         },
-        "qwen2.5-coder-7b-instruct": {
+        "qwen/qwen3.5-9b": {
           "name": "The Speedy Qwen"
         },
         "deepseek-coder-6.7b-instruct": {
