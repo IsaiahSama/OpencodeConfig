@@ -30,7 +30,8 @@
     "*": "ask",
     "read": {
       "*": "allow",
-      "*.env.example": "allow"
+      "*.env.example": "allow",
+      ".env": "deny"
     },
     "bash": {
       "*": "ask",
@@ -49,13 +50,14 @@
     "lsp": "allow",
     "todoread": "allow",
     "todowrite": "allow",
-    "doom_loop": "allow",
+    "doom_loop": "deny",
     "webfetch": "allow",
     "websearch": "ask",
     "codesearch": "allow",
     "glob": "allow",
     "grep": "allow",
     "list": "allow",
+    "find": "allow"
   },
   "lsp": {
     "pyright": {
